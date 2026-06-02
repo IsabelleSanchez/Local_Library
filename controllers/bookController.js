@@ -28,10 +28,6 @@ exports.index = async (req, res, next) => {
     genre_count: numGenres,
   });
 };
-
-exports.index = async (req, res, next) => {
-  res.send("NOT IMPLEMENTED: Site Home Page");
-};
   
 // Display list of all books.
 exports.book_list = async (req, res, next) => {
